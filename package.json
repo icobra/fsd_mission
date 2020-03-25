@@ -1,0 +1,29 @@
+{
+  "name": "fsd_mission",
+  "version": "1.0.0",
+  "description": "Task for developer's frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icobra/fsd_mission.git"
+  },
+  "keywords": [
+    "js",
+    "webpack",
+    "pug",
+    "scss"
+  ],
+  "author": "Sasha Good as icobra <eiroglif@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icobra/fsd_mission/issues"
+  },
+  "homepage": "https://github.com/icobra/fsd_mission#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
