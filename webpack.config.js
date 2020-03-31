@@ -12,7 +12,7 @@ const PATHS = {
 // Экспорт модуля в node.js
 module.exports = {
   // Точка входа в приложение.
-  entry: PATHS.source + 'app.js',
+  entry: PATHS.source + '/app.js',
   output: {
     filename: 'bundle.js',
     path: path.build
@@ -24,7 +24,7 @@ module.exports = {
       title: 'Webpack app',
       template: './src/index.pug'
     }),
-  ]
+  ],
 
   // ??? .
   module: {
