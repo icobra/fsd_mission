@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/icobra/fsd_mission#readme",
   "devDependencies": {
+    "html-loader": "^1.0.0",
     "html-webpack-plugin": "^4.0.2",
     "html-webpack-template-pug": "^1.1.1",
     "pug": "^2.0.4",
