@@ -15,7 +15,7 @@ module.exports = {
   entry: PATHS.source + '/app.js',
   output: {
     filename: 'bundle.js',
-    path: path.build
+    path: path.build,
   },
 
   // plugins - плагины для кастомизации процесса сборки Webpack.
@@ -44,10 +44,13 @@ module.exports = {
       },
       // image
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jpg|gif)$/i,
         use: [
           {
             loader: 'file-loader',
+            options: {
+              name: './[name].[ext]'
+            },
           },
         ],
       },
