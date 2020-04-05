@@ -26,15 +26,22 @@ module.exports = {
     }),
   ],
 
-  // ??? .
+  // module - настройка для обработки дополнительных модулей проекта.
   module: {
     rules: [
-    {
-    test: /\.pug$/,
-    loader: 'pug-loader',
-    options: {
-      pretty: true
+      //PUG
+      {
+      test: /\.pug$/,
+      loader: 'pug-loader',
+        options: {
+        pretty: true
+        },
       },
-    }]
+      //scss
+      {
+        test: /\.scss$/,
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
+    ]
   }
 }
