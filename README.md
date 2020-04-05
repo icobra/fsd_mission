@@ -24,6 +24,14 @@ https://tocode.ru/curses/nastroika-webpack4/webpack-dlya-verstki-pug
 nmp i - D node-sass style-loader css-loader sass-loader
 https://survivejs.com/webpack/styling/loading/
 
+* url-loader
+
+npm install url-loader --save-dev
+
+* file-loader
+
+npm install file-loader --save-dev
+
 ## UI-KIT ../src/UI-KIT
 
 * Colors & Type
