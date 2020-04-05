@@ -49,6 +49,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
+              // Четко указать пути до файлов иначе из pug картинки не будут подключаться.
               name: './[name].[ext]'
             },
           },
